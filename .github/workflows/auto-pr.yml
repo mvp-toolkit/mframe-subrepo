@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - updates/v[0-9]+/*
+      - updates/main/*
 jobs:
   call-pkg-auto-pr:
     uses: mvp-toolkit/workflows/.github/workflows/pkg-auto-pr.yml@main
