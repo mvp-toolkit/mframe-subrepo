@@ -1,0 +1,9 @@
+name: Auto Pull Request
+on:
+  push:
+    branches:
+      - updates/v[0-9]+/*
+jobs:
+  call-pkg-auto-pr:
+    uses: mvp-toolkit/workflows/.github/workflows/pkg-auto-pr.yml@main
+    secrets: inherit
