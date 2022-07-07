@@ -1,7 +1,7 @@
 # ${NAME}
 
 **_This package is part of [MVP Toolkit][mvp-toolkit], a premium collection of
-packages and starter kits for fast MVP development._**
+starter kits and reusable packages for fast MVP development._**
 
 ## Table of Contents
 
