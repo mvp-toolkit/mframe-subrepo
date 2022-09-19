@@ -5,6 +5,6 @@ on:
       - updates/v[0-9]+/*
       - updates/main/*
 jobs:
-  call-pkg-auto-pr:
-    uses: mvp-toolkit/workflows/.github/workflows/pkg-auto-pr.yml@main
+  call-subrepo-auto-pr:
+    uses: mvp-toolkit/mframe/.github/workflows/subrepo-auto-pr.yml@main
     secrets: inherit
